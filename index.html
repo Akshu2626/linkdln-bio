@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkdin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+
+    <div id="main">
+
+        <!-- Nav start here -->
+
+        <nav>
+            <div class="nav-input">
+                <i class="ri-linkedin-box-fill"></i>
+                <input type="search" class="nav-textinput" placeholder="Search">
+            </div>
+            <div class="nav-menu">
+                <div class="nav-menu-inner"><i class="ri-home-2-fill"></i>
+                    <h4 class="nav-menu-text">Home</h4>
+                </div>
+                <div class="nav-menu-inner"><i class="ri-group-fill"></i>
+                    <h4 class="nav-menu-text">My Networks</h4>
+                </div>
+                <div class="nav-menu-inner"><i class="ri-briefcase-3-fill"></i>
+                    <h4 class="nav-menu-text">Jobs</h4>
+                </div>
+                <div class="nav-menu-inner"><i class="ri-message-3-fill"></i>
+                    <h4 class="nav-menu-text">Messaging</h4>
+                </div>
+                <div class="nav-menu-inner"><i class="ri-notification-3-fill"></i>
+                    <h4 class="nav-menu-text">Notification</h4>
+                </div>
+                <div class="nav-menu-inner"><i class="ri-account-circle-line"></i>
+                    <h4 class="nav-menu-text">Me</h4>
+                </div>
+            </div>
+            <div class="nav-primum">
+                <div class="nav-primum-icon">
+                    <i class="ri-layout-grid-2-fill"></i>
+                    <h4 class="nav-menu-text">For Business</h4>
+                </div>
+                <h4 class="nav-primum-text">Unlock 1 month of Premium</h4>
+            </div>
+        </nav>
+
+        <!-- Nav end here -->
+
+        <!-- pages here -->
+
+        <div class="pages">
+
+            <div class="page-left">
+                <div class="page1">
+                    <div class="page1-banner">
+                        <div class="page1-banner-pen">
+
+                            <label for="banner-input"><i class="ri-pencil-fill"></i></label>
+                            <input type="file" hidden accept="image/*" id="banner-input">
+
+                        </div>
+                        <img src="./55k1z8997gh8dwtihm11aajyq.svg" id="banner" class="page1-banner-img" alt="">
+
+                        <div class="page1-banner-avatar circlee">
+
+                            <img src="" alt="" id="avatar" class="page1-cicle pic"></img>
+                        </div>
+
+                    </div>
+
+                    <div class="page1-bio">
+                        <div class="page1-bio-left">
+                            <div class="page1-bio-name">
+                                <h2 class="page1-name">Akshu Gajbhiye </h2>
+                                <span style="font-weight: 200; color: grey; font-size: .8rem;"> (He/Him) </span>
+                                <h2 class="page1-verify"> <i class="ri-shield-check-line"></i> Verify now</h2>
+                                <label for="start" class="start" onclick="startRecording()"><i
+                                        class="ri-mic-fill"></i></label>
+                                <label for="stop" class="start"><i class="ri-mic-off-fill"
+                                        onclick="stopRecording()"></i></label>
+                            </div>
+
+                            <div class="showauido">
+                                <div id="audioContainer">
+                                </div><button onclick="clearRecording()" style="display: none"
+                                    class="clear-recording"><i class="ri-close-line" id="audio-close"></i></button>
+                            </div>
+
+
+
+                            <div class="page1-skilll">
+                                <h2 class="page1-skills">
+                                    Full Stack Developer | React.js ,Redux | Flutter Developer | Node.js | JavaScript |
+                                    Java
+                                    | Dart | MongoDB
+                                </h2>
+                            </div>
+
+
+                            <div class="page1-location">
+                                <h4 class="page1-location-bhopal" id="demo"> Bhopal, Madhya pradesh, India </h4>
+                                <span style="color: #A0BCE0; font-size: .8rem;" id="location"
+                                    onclick="getLocation()">Contact info</span>
+                            </div>
+                            <span style="color: #A0BCE0; font-size: .9rem;">277 connections</span>
+                            <div class="page1-button">
+                                <h3 class="page1-btn">Open to</h3>
+                                <h3 class="page1-btn">Add profile section</h3>
+                                <h3 class="page1-btn">More</h3>
+                            </div>
+                            <div class="page1-card">
+                                <div class="page1-card-inner">
+                                    <div class="page1-card-row">
+                                        <h5 class="page1-card-row-inner">Open to work</h5>
+                                        <i class="ri-pencil-line"></i>
+                                    </div>
+                                    <h5 class="page1-card-row-inner1">Full Stack Engineer and Application Developer
+                                        roles
+                                    </h5>
+                                    <h5 class="page1-card-row-inner1">Show Details</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page1-bio-right">
+                            <div class="page1-bio-edit">
+                                <i class="ri-pencil-line"></i>
+                            </div>
+                            <div class="page1-bio-right-inner">
+                                <img src="https://media.licdn.com/dms/image/D4D0BAQFXc_Nf6CpIng/company-logo_100_100/0/1688733383000/priyamtechnologiesbengaluru_logo?e=1721865600&v=beta&t=_Wi2ii-G2cqQu7gxKfI92TaRxwhVeuY0oRJBfcM5uxU"
+                                    alt="">
+                                <h4 class="page1-com-name">Priyam innovation Pvt. Ltd.</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page2">
+                    <div class="page2-box">
+                        <h2 class="page2-title">Suggested for you</h2>
+                        <div class="page2-box-inner">
+                            <i class="ri-eye-fill"></i>
+                            <h3 class="page2-box-inner-title">Private to you</h3>
+                        </div>
+                    </div>
+                    <div class="page2-box2">
+                        <h4 class="page2-box2-title1">Intermediate</h4>
+                        <div class="page2-box2-slide">
+                            <div class="page2-box2-slide-inner"></div>
+                            <h5> 5/7 </h5>
+                        </div>
+                        <h4 class="page2-box2-title2">Complete 2 steps to achieve <span
+                                style="color: blue;">All-star</span> </h4>
+                    </div>
+                    <div class="page2-box3">
+                        <div class="page2-box3-box">
+                            <div class="page2-box3-left">
+                                <h2 class="page2-box3-h2">Which university or school did you attend?</h2>
+                                <h3 class="page2-box3-h3">Members who include a school receive up to 2.2 times as many
+                                    profile views.</h3>
+                                <h4 class="page2-box3-add">Add education</h4>
+                            </div>
+                            <div class="page2-box3-right">X</div>
+                        </div>
+                        <div class="page2-box3-box">
+                            <div class="page2-box3-left">
+                                <h2 class="page2-box3-h2">Write a summary to highlight your personality or work
+                                    experience</h2>
+                                <h3 class="page2-box3-h3">Members who include a school receive up to 3.9 times as many
+                                    profile views.</h3>
+                                <h4 class="page2-box3-add">Add a summary</h4>
+                            </div>
+                            <div class="page2-box3-right">X</div>
+                        </div>
+                        <!-- <div class="page2-box3-box1"></div> -->
+
+                    </div>
+                </div>
+                <div class="page3">
+                    <div class="page2-box">
+                        <h2 class="page2-title">Analytics</h2>
+                        <div class="page2-box-inner">
+                            <i class="ri-eye-fill"></i>
+                            <h3 class="page2-box-inner-title">Private to you</h3>
+                        </div>
+                    </div>
+
+                    <div class="page3-content">
+                        <div class="page3-box">
+                            <div class="page3-box-inner">
+                                <i class="ri-group-fill"></i>
+                                <h5 class="page3-inner-h5">108 Profile Views</h5>
+                            </div>
+                            <h4 class="page3-inner-h4">
+                                Discover who's viewed your profile.
+                            </h4>
+                        </div>
+                        <div class="page3-box">
+                            <div class="page3-box-inner">
+                                <i class="ri-chat-poll-line"></i>
+                                <h5 class="page3-inner-h5">397 post impressions</h5>
+                            </div>
+                            <h4 class="page3-inner-h4">
+                                Check out who's engaging with your posts.
+                            </h4>
+                        </div>
+                        <div class="page3-box">
+                            <div class="page3-box-inner">
+                                <i class="ri-search-line"></i>
+                                <h5 class="page3-inner-h5">14 search appearances</h5>
+                            </div>
+                            <h4 class="page3-inner-h4">
+                                See how often you appear in search results.
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="page3-show-btn">
+                        <h5 class="page3-show-btn-inner">Show all analytics <i class="ri-arrow-right-line"></i> </h5>
+                    </div>
+                </div>
+                <div class="page4">
+                    <div class="page2-box">
+                        <h2 class="page2-title">Resources</h2>
+                        <div class="page2-box-inner">
+                            <i class="ri-eye-fill"></i>
+                            <h3 class="page2-box-inner-title">Private to you</h3>
+                        </div>
+                    </div>
+
+                    <div class="page4-box">
+                        <div class="page4-box-inner">
+                            <i class="ri-group-fill"></i>
+                        </div>
+                        <div class="page4-box-inner1">
+                            <h4 class="page4-box-h4">My Networks</h4>
+                            <h4 class="page4-box-h5">See and manage your connections and interests.</h4>
+                        </div>
+                    </div>
+                    <div class="page4-box">
+                        <div class="page4-box-inner">
+                            <i class="ri-bookmark-fill"></i>
+                        </div>
+                        <div class="page4-box-inner1">
+                            <h4 class="page4-box-h4">My Networks</h4>
+                            <h4 class="page4-box-h5">See and manage your connections and interests.</h4>
+                        </div>
+                    </div>
+
+
+                    <!-- btn -->
+                    <div class="page3-show-btn">
+                        <h5 class="page3-show-btn-inner">Show all resources <i class="ri-arrow-right-line"></i> </h5>
+                    </div>
+
+                </div>
+            </div>
+            <!-- page right started -->
+            <div class="page-right">
+                <div class="pana1">
+                    <div class="pana1-inner">
+                        <div class="pana1-inner-left">
+                            <h4 class="pana1-h4">Profile language</h4>
+                            <h5 class="pana1-h5">English</h5>
+                        </div>
+                        <div class="pana1-inner-right">
+                            <i class="ri-pencil-line"></i>
+                        </div>
+                    </div>
+                    <div class="pana1-inner">
+                        <div class="pana1-inner-left">
+                            <h4 class="pana1-h4">Public profile & URL</h4>
+                            <h5 class="pana1-h5">www.linkedin.com/in/akshu-gajbhiye-279a29302</h5>
+                        </div>
+                        <div class="pana1-inner-right">
+                            <i class="ri-pencil-line"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pana2">
+                    <h4 class="pana2-h4">Other similler profile</h4>
+                    <div class="pana2-box">
+                        <div class="pana2-box-left">
+                            <div class="pana2-box-cir"></div>
+                        </div>
+                        <div class="pana2-box-right">
+                            <h4 class="pana2-box-h4">Sarthak Sharma</h4>
+                            <h5 class="pana2-box-h5">Core team - "Sheryians"
+                                - Full-Stack Web Developer🔖</h5>
+                            <h3 class="pana2-box-h3"> + Follow </h3>
+                        </div>
+                    </div>
+                    <div class="pana2-box">
+                        <div class="pana2-box-left">
+                            <div class="pana2-box-cir"></div>
+                        </div>
+                        <div class="pana2-box-right">
+                            <h4 class="pana2-box-h4">Sarthak Sharma</h4>
+                            <h5 class="pana2-box-h5">Core team - "Sheryians"
+                                - Full-Stack Web Developer🔖</h5>
+                            <h3 class="pana2-box-h3"> + Follow </h3>
+                        </div>
+                    </div>
+                    <div class="pana2-box">
+                        <div class="pana2-box-left">
+                            <div class="pana2-box-cir"></div>
+                        </div>
+                        <div class="pana2-box-right">
+                            <h4 class="pana2-box-h4">Sarthak Sharma</h4>
+                            <h5 class="pana2-box-h5">Core team - "Sheryians"
+                                - Full-Stack Web Developer🔖</h5>
+                            <h3 class="pana2-box-h3"> + Follow </h3>
+                        </div>
+                    </div>
+                    <div class="pana2-box">
+                        <div class="pana2-box-left">
+                            <div class="pana2-box-cir"></div>
+                        </div>
+                        <div class="pana2-box-right">
+                            <h4 class="pana2-box-h4">Sarthak Sharma</h4>
+                            <h5 class="pana2-box-h5">Core team - "Sheryians"
+                                - Full-Stack Web Developer🔖</h5>
+                            <h3 class="pana2-box-h3"> + Follow </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-box">
+            <div class="popup-title">
+                <h4 class="popup-h4">Profile Picture</h4>
+                <i class="ri-close-line" id="popup-close"></i>
+            </div>
+            <div class="popupbox">
+                <video id="video-preview" autoplay></video>
+                <canvas id="canvas-preview" style="display: none;"></canvas>
+            </div>
+            <div class="popup-btn">
+                <button class="popup-camera switch-on-camera-btn">camera</button>
+                
+                <button id="capture-btn" style="display: none;">UPLOAD</button>
+                <input type="file" accept="image/*" hidden id="page1-cir" class="avatar-input">
+                <button class="popup-gallary">
+                    <label for="page1-cir">gallery</label>
+                </button>
+            </div>
+        </div>
+
+
+
+        <!-- main page ends -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
