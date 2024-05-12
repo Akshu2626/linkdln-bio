@@ -803,6 +803,11 @@ nav {
 }
 
 @media (max-width: 780px) {
+  .page1-banner-pen {
+    top: 5%;
+    right: 25%;
+  }
+
   .popup-box {
     width: 25rem;
   }
@@ -882,6 +887,11 @@ nav {
 }
 
 @media (max-width: 370px) {
+
+  .page1-banner-pen {
+    top: 5%;
+    right: 45%;
+  }
   .popup-box {
     width: 15rem;
   }
